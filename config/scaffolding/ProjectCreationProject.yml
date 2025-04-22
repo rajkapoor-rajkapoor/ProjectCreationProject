@@ -16,3 +16,11 @@ services:
   packages:
   - name: WmPublic
     version: 11.1.0.0.2047
+- serviceName: project.projectcreation.integrations:dssd
+  packages:
+  - name: ProjectCreationProject
+    version: "1.0"
+- serviceName: pub.flow:setCustomContextID
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.2047

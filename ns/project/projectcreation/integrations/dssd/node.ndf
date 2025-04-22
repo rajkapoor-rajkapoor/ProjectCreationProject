@@ -45,9 +45,8 @@
   <value name="retry_max">0</value>
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
-    <value name="createdBy">RajKapoor.RajKapoor@ibm.com</value>
-    <value name="createdDate">1745304651225</value>
-    <value name="lastModifiedDate">1745304651225</value>
+    <value name="lastModifiedBy">RajKapoor.RajKapoor@ibm.com</value>
+    <value name="lastModifiedDate">1745304725536</value>
     <value name="displayName">dssd</value>
     <value name="description"></value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
@@ -70,10 +69,11 @@
         <number name="lineNumberForDebug" type="Long">1</number>
         <null name="mapSet"/>
         <null name="outputMapSet"/>
+        <Boolean name="xmlMapsetSupported">true</Boolean>
       </record>
     </record>
   </record>
-  <value name="svc_in_validator_options">none</value>
+  <value name="svc_in_validator_options">default</value>
   <value name="svc_out_validator_options">none</value>
   <value name="auditoption">2</value>
   <null name="auditfields_input"/>

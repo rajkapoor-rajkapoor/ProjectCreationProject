@@ -18,6 +18,11 @@
         <value name="value">{AES}WQ6KKAlj+st1IYDAt385Xw==</value>
         <value name="isSecure">false</value>
       </record>
+      <record javaclass="com.wm.data.ISMemDataImpl">
+        <value name="key">rwsasa</value>
+        <value name="value">asasasa</value>
+        <value name="isSecure">false</value>
+      </record>
     </array>
   </record>
 </IDataXMLCoder>

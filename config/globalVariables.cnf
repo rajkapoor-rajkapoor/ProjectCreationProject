@@ -15,17 +15,17 @@
       </record>
       <record javaclass="com.wm.data.ISMemDataImpl">
         <value name="key">nwwwvar</value>
-        <value name="value">{AES}WQ6KKAlj+st1IYDAt385Xw==</value>
+        <value name="value">11111111111111111</value>
         <value name="isSecure">false</value>
       </record>
       <record javaclass="com.wm.data.ISMemDataImpl">
         <value name="key">rwsasa</value>
-        <value name="value">asasasa</value>
+        <value name="value">111111111111111111111111111111111111111111111111111111</value>
         <value name="isSecure">false</value>
       </record>
       <record javaclass="com.wm.data.ISMemDataImpl">
         <value name="key">aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</value>
-        <value name="value">aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</value>
+        <value name="value">11111111</value>
         <value name="isSecure">false</value>
       </record>
     </array>

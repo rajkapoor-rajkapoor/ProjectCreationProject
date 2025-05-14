@@ -7,6 +7,11 @@ packages:
   gitUrl: https://github.com/rajkapoor-rajkapoor
   gitUsername: rajkapoor-rajkapoor
   gitBranch: main
+- name: aTest_Caching
+  gitServerName: rajka
+  gitUrl: https://github.com/rajkapoor-rajkapoor
+  gitUsername: rajkapoor-rajkapoor
+  gitBranch: main
 services:
 - serviceName: project.projectcreation.integrations:DAFUsingVault
   packages:

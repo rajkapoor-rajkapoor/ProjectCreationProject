@@ -45,9 +45,8 @@
   <value name="retry_max">0</value>
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
-    <value name="createdBy">RajKapoor.RajKapoor@ibm.com</value>
-    <value name="createdDate">1747281411743</value>
-    <value name="lastModifiedDate">1747281411743</value>
+    <value name="lastModifiedBy">RajKapoor.RajKapoor@ibm.com</value>
+    <value name="lastModifiedDate">1747284770030</value>
     <value name="displayName">DAFUsingSetresponse</value>
     <value name="description"></value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
@@ -70,6 +69,8 @@
         <number name="lineNumberForDebug" type="Long">1</number>
         <null name="mapSet"/>
         <null name="outputMapSet"/>
+        <Boolean name="serviceReferenceResolved">true</Boolean>
+        <value name="nodePathForDebug">0</value>
       </record>
     </record>
   </record>

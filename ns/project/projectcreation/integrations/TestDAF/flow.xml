@@ -392,16 +392,16 @@
 
   <!-- nodes -->
 
-<MAPCOPY FROM="/value;1;0" TO="/httpResponse;2;0/responseCode;1;0">
-</MAPCOPY>
-
-<MAPCOPY FROM="/inString;1;0" TO="/httpResponse;2;0/responseString;1;0">
+<MAPCOPY FROM="/Num;1;0" TO="/httpResponse;2;0/headers;2;1/fieldName;1;0">
 </MAPCOPY>
 
 <MAPCOPY FROM="/Num;1;0" TO="/httpResponse;2;0/headers;2;1/fieldValue;1;0">
 </MAPCOPY>
 
-<MAPCOPY FROM="/Num;1;0" TO="/httpResponse;2;0/headers;2;1/fieldName;1;0">
+<MAPCOPY FROM="/isNumber;1;0" TO="/httpResponse;2;0/responseString;1;0">
+</MAPCOPY>
+
+<MAPCOPY FROM="/value;1;0" TO="/httpResponse;2;0/responseCode;1;0">
 </MAPCOPY>
 </MAP>
 

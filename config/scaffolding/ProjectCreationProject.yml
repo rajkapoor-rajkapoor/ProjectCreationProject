@@ -46,6 +46,12 @@ services:
     version: "1.0"
   - name: aTest_Caching
     version: "1.0"
+- serviceName: project.projectcreation.integrations:TestDAF
+  packages:
+  - name: ProjectCreationProject
+    version: "1.0"
+  - name: aTest_Caching
+    version: "1.0"
 - serviceName: project.projectcreation.integrations:dssd
   packages:
   - name: ProjectCreationProject

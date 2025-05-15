@@ -58,6 +58,10 @@ services:
     version: "1.0"
   - name: aTest_Caching
     version: "1.0"
+- serviceName: pub.string:length
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.2055
 - serviceName: project.projectcreation.integrations:dssd
   packages:
   - name: ProjectCreationProject

@@ -63,7 +63,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">RajKapoor.RajKapoor@ibm.com</value>
-    <value name="lastModifiedDate">1747288897072</value>
+    <value name="lastModifiedDate">1747289089633</value>
     <value name="displayName">TestDAF</value>
     <value name="description"></value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
@@ -77,10 +77,10 @@
         </record>
         <record name="serviceName" javaclass="com.wm.util.Values">
           <value name="transformerSupport">true</value>
-          <value name="displayName">length</value>
-          <value name="serviceName">pub.string:length</value>
+          <value name="displayName">isNumber</value>
+          <value name="serviceName">pub.string:isNumber</value>
           <Boolean name="enabled">true</Boolean>
-          <double name="rank" type="Double">0.05</double>
+          <double name="rank" type="Double">0.04000000000000001</double>
         </record>
         <number name="ui_step_index" type="Long">1</number>
         <value name="nodePathNew">0</value>

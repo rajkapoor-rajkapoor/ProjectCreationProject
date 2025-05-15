@@ -58,7 +58,7 @@ services:
     version: "1.0"
   - name: aTest_Caching
     version: "1.0"
-- serviceName: pub.string:length
+- serviceName: pub.string:isNumber
   packages:
   - name: WmPublic
     version: 11.1.0.0.2055

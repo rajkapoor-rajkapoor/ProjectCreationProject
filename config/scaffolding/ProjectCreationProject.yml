@@ -26,7 +26,7 @@ services:
     version: "1.0"
   - name: aTest_Caching
     version: "1.0"
-- serviceName: pub.date:getCurrentDate
+- serviceName: pub.flow:setHTTPResponse
   packages:
   - name: WmPublic
     version: 11.1.0.0.2055
@@ -36,10 +36,6 @@ services:
     version: "1.0"
   - name: aTest_Caching
     version: "1.0"
-- serviceName: pub.flow:setHTTPResponse
-  packages:
-  - name: WmPublic
-    version: 11.1.0.0.2055
 - serviceName: project.projectcreation.integrations:DAFUsingVault
   packages:
   - name: ProjectCreationProject

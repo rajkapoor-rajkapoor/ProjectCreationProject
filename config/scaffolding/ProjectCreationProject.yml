@@ -74,6 +74,12 @@ services:
     version: "1.0"
   - name: aTest_Caching
     version: "1.0"
+- serviceName: project.projectcreation.integrations:testrest123123
+  packages:
+  - name: ProjectCreationProject
+    version: "1.0"
+  - name: aTest_Caching
+    version: "1.0"
 configurationVariables:
   ? cloudstreamsconnection.project..projectcreation..WmSalesforceProvider..com_softwareag_cloudstreams_salesforce_v53..connections:testConn.cn.hostnameVerifier
   : org.apache.http.conn.ssl.DefaultHostnameVerifier

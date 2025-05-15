@@ -45,9 +45,8 @@
   <value name="retry_max">0</value>
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
-    <value name="createdBy">RajKapoor.RajKapoor@ibm.com</value>
-    <value name="createdDate">1747286893045</value>
-    <value name="lastModifiedDate">1747286893045</value>
+    <value name="lastModifiedBy">RajKapoor.RajKapoor@ibm.com</value>
+    <value name="lastModifiedDate">1747286982797</value>
     <value name="displayName">DAFSs</value>
     <value name="description"></value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
@@ -55,15 +54,21 @@
         <null name="name"/>
         <value name="itemType">SERVICES</value>
         <record name="serviceInfo" javaclass="com.wm.util.Values">
-          <value name="groupDisplayName">Date</value>
-          <value name="groupName">date</value>
+          <value name="groupDisplayName">Flow</value>
+          <value name="groupName">flow</value>
           <null name="services"/>
         </record>
         <record name="serviceName" javaclass="com.wm.util.Values">
-          <value name="displayName">getCurrentDate</value>
-          <value name="serviceName">pub.date:getCurrentDate</value>
+          <value name="displayName">setHTTPResponse</value>
+          <value name="serviceName">pub.flow:setHTTPResponse</value>
           <value name="transformerSupport">true</value>
         </record>
+        <number name="ui_step_index" type="Long">1</number>
+        <value name="nodePathNew">0</value>
+        <number name="nodeIndex" type="Long">0</number>
+        <number name="lineNumberForDebug" type="Long">1</number>
+        <null name="mapSet"/>
+        <null name="outputMapSet"/>
       </record>
     </record>
   </record>

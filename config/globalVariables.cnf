@@ -5,7 +5,7 @@
     <array name="globalVariables" type="record" depth="1">
       <record javaclass="com.wm.data.ISMemDataImpl">
         <value name="key">TestPro</value>
-        <value name="value">0ewwqe</value>
+        <value name="value">2212121wwea</value>
         <value name="isSecure">false</value>
       </record>
       <record javaclass="com.wm.data.ISMemDataImpl">
@@ -15,7 +15,7 @@
       </record>
       <record javaclass="com.wm.data.ISMemDataImpl">
         <value name="key">nwwwvar</value>
-        <value name="value"></value>
+        <value name="value">11111111111111111</value>
         <value name="isSecure">false</value>
       </record>
       <record javaclass="com.wm.data.ISMemDataImpl">

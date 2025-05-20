@@ -14,22 +14,26 @@ packages:
   gitUsername: rajkapoor-rajkapoor
   gitBranch: main
 services:
-- serviceName: project.projectcreation.WmSalesforceProvider.com_softwareag_cloudstreams_salesforce_v53.connections:testConn
+- serviceName: project.projectcreation.integrations:DAFService
   packages:
   - name: ProjectCreationProject
     version: "1.0"
   - name: aTest_Caching
     version: "1.0"
+- serviceName: pub.math:addInts
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.2055
+- serviceName: pub.flow:setHTTPResponse
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.2055
 - serviceName: project.projectcreation.integrations:DAFSs
   packages:
   - name: ProjectCreationProject
     version: "1.0"
   - name: aTest_Caching
     version: "1.0"
-- serviceName: pub.flow:setHTTPResponse
-  packages:
-  - name: WmPublic
-    version: 11.1.0.0.2055
 - serviceName: project.projectcreation.integrations:DAFUsingSetresponse
   packages:
   - name: ProjectCreationProject
@@ -42,10 +46,6 @@ services:
     version: "1.0"
   - name: aTest_Caching
     version: "1.0"
-- serviceName: pub.math:addInts
-  packages:
-  - name: WmPublic
-    version: 11.1.0.0.2055
 - serviceName: project.projectcreation.integrations:DAFservice
   packages:
   - name: ProjectCreationProject
@@ -72,114 +72,3 @@ services:
   packages:
   - name: WmPublic
     version: 11.1.0.0.2055
-- serviceName: project.projectcreation.integrations:test
-  packages:
-  - name: ProjectCreationProject
-    version: "1.0"
-  - name: aTest_Caching
-    version: "1.0"
-- serviceName: project.projectcreation.integrations:test12343
-  packages:
-  - name: ProjectCreationProject
-    version: "1.0"
-  - name: aTest_Caching
-    version: "1.0"
-- serviceName: project.projectcreation.integrations:testrest123123
-  packages:
-  - name: ProjectCreationProject
-    version: "1.0"
-  - name: aTest_Caching
-    version: "1.0"
-- serviceName: project.projectcreation.integrations:vvv123
-  packages:
-  - name: ProjectCreationProject
-    version: "1.0"
-  - name: aTest_Caching
-    version: "1.0"
-configurationVariables:
-  ? cloudstreamsconnection.project..projectcreation..WmSalesforceProvider..com_softwareag_cloudstreams_salesforce_v53..connections:testConn.cn.hostnameVerifier
-  : org.apache.http.conn.ssl.DefaultHostnameVerifier
-  ? cloudstreamsconnection.project..projectcreation..WmSalesforceProvider..com_softwareag_cloudstreams_salesforce_v53..connections:testConn.cr.password
-  : "{AES}y+Ly0CAk9fskMLGmlLb9Wo5fHklAr6qAYz91xlbdbimdNLI4Yyz1XnhQBA00DGdL"
-  ? cloudstreamsconnection.project..projectcreation..WmSalesforceProvider..com_softwareag_cloudstreams_salesforce_v53..connections:testConn.cr.preemptiveAuthEnabled
-  : "false"
-  ? cloudstreamsconnection.project..projectcreation..WmSalesforceProvider..com_softwareag_cloudstreams_salesforce_v53..connections:testConn.cr.authSchemeType
-  : none
-  ? cloudstreamsconnection.project..projectcreation..WmSalesforceProvider..com_softwareag_cloudstreams_salesforce_v53..connections:testConn.minimumPoolSize
-  : "1"
-  ? cloudstreamsconnection.project..projectcreation..WmSalesforceProvider..com_softwareag_cloudstreams_salesforce_v53..connections:testConn.timeoutType
-  : fixed
-  ? cloudstreamsconnection.project..projectcreation..WmSalesforceProvider..com_softwareag_cloudstreams_salesforce_v53..connections:testConn.cn.validateAfterInactivity
-  : "1000"
-  ? cloudstreamsconnection.project..projectcreation..WmSalesforceProvider..com_softwareag_cloudstreams_salesforce_v53..connections:testConn.connectionEnabled
-  : "false"
-  ? cloudstreamsconnection.project..projectcreation..WmSalesforceProvider..com_softwareag_cloudstreams_salesforce_v53..connections:testConn.cn.retryCount
-  : "3"
-  ? cloudstreamsconnection.project..projectcreation..WmSalesforceProvider..com_softwareag_cloudstreams_salesforce_v53..connections:testConn.cn.idleTimeout
-  : "-1"
-  ? cloudstreamsconnection.project..projectcreation..WmSalesforceProvider..com_softwareag_cloudstreams_salesforce_v53..connections:testConn.maximumPoolSize
-  : "10"
-  ? cloudstreamsconnection.project..projectcreation..WmSalesforceProvider..com_softwareag_cloudstreams_salesforce_v53..connections:testConn.poolIncrementSize
-  : "1"
-  ? cloudstreamsconnection.project..projectcreation..WmSalesforceProvider..com_softwareag_cloudstreams_salesforce_v53..connections:testConn.cn.socketStaleCheck
-  : "true"
-  ? cloudstreamsconnection.project..projectcreation..WmSalesforceProvider..com_softwareag_cloudstreams_salesforce_v53..connections:testConn.pr.httpContentCharSet
-  : ISO-8859-1
-  ? cloudstreamsconnection.project..projectcreation..WmSalesforceProvider..com_softwareag_cloudstreams_salesforce_v53..connections:testConn.expireTimeout
-  : "1000"
-  ? cloudstreamsconnection.project..projectcreation..WmSalesforceProvider..com_softwareag_cloudstreams_salesforce_v53..connections:testConn.pr.useChunking
-  : "false"
-  ? cloudstreamsconnection.project..projectcreation..WmSalesforceProvider..com_softwareag_cloudstreams_salesforce_v53..connections:testConn.cn.reuseAddr
-  : "false"
-  ? cloudstreamsconnection.project..projectcreation..WmSalesforceProvider..com_softwareag_cloudstreams_salesforce_v53..connections:testConn.pr.userAgent
-  : Cloudstreams
-  ? cloudstreamsconnection.project..projectcreation..WmSalesforceProvider..com_softwareag_cloudstreams_salesforce_v53..connections:testConn.cn.sockBuffSize
-  : "8192"
-  ? cloudstreamsconnection.project..projectcreation..WmSalesforceProvider..com_softwareag_cloudstreams_salesforce_v53..connections:testConn.rh.requestHeaderValues
-  : "text/xml,login"
-  ? cloudstreamsconnection.project..projectcreation..WmSalesforceProvider..com_softwareag_cloudstreams_salesforce_v53..connections:testConn.cn.retryIfRequestSentOk
-  : "true"
-  ? cloudstreamsconnection.project..projectcreation..WmSalesforceProvider..com_softwareag_cloudstreams_salesforce_v53..connections:testConn.sessionExpiry
-  : "14"
-  ? iscloudstreamsconnectorservice.project..projectcreation..WmSalesforceProvider..com_softwareag_cloudstreams_salesforce_v53..operations..actions:action1.connectionAlias
-  : project.projectcreation.WmSalesforceProvider.com_softwareag_cloudstreams_salesforce_v53.connections:testConn
-  ? cloudstreamsconnection.project..projectcreation..WmSalesforceProvider..com_softwareag_cloudstreams_salesforce_v53..connections:testConn.cn.enableCompression
-  : "false"
-  ? cloudstreamsconnection.project..projectcreation..WmSalesforceProvider..com_softwareag_cloudstreams_salesforce_v53..connections:testConn.cn.socketLinger
-  : "-1"
-  ? cloudstreamsconnection.project..projectcreation..WmSalesforceProvider..com_softwareag_cloudstreams_salesforce_v53..connections:testConn.pr.serverRedirectMax
-  : "5"
-  ? cloudstreamsconnection.project..projectcreation..WmSalesforceProvider..com_softwareag_cloudstreams_salesforce_v53..connections:testConn.cn.enableSNI
-  : "true"
-  ? iscloudstreamsconnectorservice.project..projectcreation..WmSalesforceProvider..com_softwareag_cloudstreams_salesforce_v53..operations..actions:action1.virtualServiceName
-  : WmCloudStreams.SoapVS
-  ? cloudstreamsconnection.project..projectcreation..WmSalesforceProvider..com_softwareag_cloudstreams_salesforce_v53..connections:testConn.cn.tcpNoDelay
-  : "false"
-  ? cloudstreamsconnection.project..projectcreation..WmSalesforceProvider..com_softwareag_cloudstreams_salesforce_v53..connections:testConn.cn.readTimeout
-  : "180000"
-  ? cloudstreamsconnection.project..projectcreation..WmSalesforceProvider..com_softwareag_cloudstreams_salesforce_v53..connections:testConn.cr.username
-  : rithi@softwareag.com
-  ? cloudstreamsconnection.project..projectcreation..WmSalesforceProvider..com_softwareag_cloudstreams_salesforce_v53..connections:testConn.cn.connectTimeout
-  : "180000"
-  ? cloudstreamsconnection.project..projectcreation..WmSalesforceProvider..com_softwareag_cloudstreams_salesforce_v53..connections:testConn.pr.followServerRedirects
-  : "true"
-  ? cloudstreamsconnection.project..projectcreation..WmSalesforceProvider..com_softwareag_cloudstreams_salesforce_v53..connections:testConn.startupRetryCount
-  : "0"
-  ? cloudstreamsconnection.project..projectcreation..WmSalesforceProvider..com_softwareag_cloudstreams_salesforce_v53..connections:testConn.cn.keepAliveInterval
-  : "300000"
-  ? cloudstreamsconnection.project..projectcreation..WmSalesforceProvider..com_softwareag_cloudstreams_salesforce_v53..connections:testConn.pr.allowCircularRedirects
-  : "true"
-  ? cloudstreamsconnection.project..projectcreation..WmSalesforceProvider..com_softwareag_cloudstreams_salesforce_v53..connections:testConn.pr.protocolVersion
-  : HTTP/1.1
-  ? cloudstreamsconnection.project..projectcreation..WmSalesforceProvider..com_softwareag_cloudstreams_salesforce_v53..connections:testConn.rh.requestHeaderNames
-  : "Content-Type,SOAPAction"
-  ? cloudstreamsconnection.project..projectcreation..WmSalesforceProvider..com_softwareag_cloudstreams_salesforce_v53..connections:testConn.pr.useExpectCont
-  : "false"
-  ? cloudstreamsconnection.project..projectcreation..WmSalesforceProvider..com_softwareag_cloudstreams_salesforce_v53..connections:testConn.poolable
-  : "true"
-  ? cloudstreamsconnection.project..projectcreation..WmSalesforceProvider..com_softwareag_cloudstreams_salesforce_v53..connections:testConn.startupBackoffSecs
-  : "10"
-  ? cloudstreamsconnection.project..projectcreation..WmSalesforceProvider..com_softwareag_cloudstreams_salesforce_v53..connections:testConn.cn.providerUrl
-  : https://login.salesforce.com/services/Soap/u/53.0
-  ? cloudstreamsconnection.project..projectcreation..WmSalesforceProvider..com_softwareag_cloudstreams_salesforce_v53..connections:testConn.blockTimeout
-  : "1000"

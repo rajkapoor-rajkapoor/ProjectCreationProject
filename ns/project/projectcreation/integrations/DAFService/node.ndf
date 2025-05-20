@@ -72,7 +72,7 @@
             <value name="field_usereditable">false</value>
           </record>
           <value name="is_public">false</value>
-          <value name="field_name">result</value>
+          <value name="field_name">Results</value>
           <value name="field_type">string</value>
           <value name="field_dim">0</value>
           <value name="nillable">true</value>
@@ -96,9 +96,8 @@
   <value name="retry_max">0</value>
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
-    <value name="createdBy">RajKapoor.RajKapoor@ibm.com</value>
-    <value name="createdDate">1747716553458</value>
-    <value name="lastModifiedDate">1747716553458</value>
+    <value name="lastModifiedBy">RajKapoor.RajKapoor@ibm.com</value>
+    <value name="lastModifiedDate">1747716745019</value>
     <value name="displayName">DAFService</value>
     <value name="description"></value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
@@ -165,6 +164,7 @@
         <number name="lineNumberForDebug" type="Long">3</number>
         <null name="mapSet"/>
         <null name="outputMapSet"/>
+        <Boolean name="xmlMapsetSupported">true</Boolean>
       </record>
       <record name="/1/1" javaclass="com.wm.util.Values">
         <value name="name">ELSE</value>
